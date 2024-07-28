@@ -42,6 +42,18 @@
       "tooltip": "Please don't edit this value - TKnecessary",
       "type": "link",
       "url": "dashboards/test.json"
+    },
+    {
+      "asDropdown": false,
+      "icon": "external link",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "TESTY",
+      "tooltip": "",
+      "type": "link",
+      "url": "dashboards/test.json"
     }
   ],
   "panels": [
@@ -152,6 +164,6 @@
   "timezone": "browser",
   "title": "ProvisionedTestDashboard",
   "uid": "edt15j1f2u7lsd",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
