@@ -132,7 +132,7 @@
       },
       "gridPos": {
         "h": 6,
-        "w": 14,
+        "w": 6,
         "x": 0,
         "y": 0
       },
@@ -286,6 +286,6 @@
   "timezone": "browser",
   "title": "ProvisionedTestDashboard",
   "uid": "edt15j1f2u7lsd",
-  "version": 9,
+  "version": 10,
   "weekStart": ""
 }
