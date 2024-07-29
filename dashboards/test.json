@@ -26,7 +26,7 @@
       "keepTime": false,
       "tags": [],
       "targetBlank": false,
-      "title": "GitOps Source Repo",
+      "title": "GitOps Source Repository",
       "tooltip": "Please don't edit this value - it is required for the GitOps POC",
       "type": "link",
       "url": "https://github.com/devicecfg/grafana-gitops-dashboards"
