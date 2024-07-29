@@ -27,7 +27,7 @@
       "tags": [],
       "targetBlank": false,
       "title": "GitOps Source Repo",
-      "tooltip": "Please don't edit this value - TKnecessary",
+      "tooltip": "Please don't edit this value - it is required for the GitOps POC",
       "type": "link",
       "url": "https://github.com/devicecfg/grafana-gitops-dashboards"
     },
@@ -38,20 +38,32 @@
       "keepTime": false,
       "tags": [],
       "targetBlank": false,
-      "title": "GitOps Source File",
-      "tooltip": "Please don't edit this value - TKnecessary",
+      "title": "GitOps Source Branch",
+      "tooltip": "Please don't edit this value - it is required for the GitOps POC",
       "type": "link",
-      "url": "dashboards/test.json"
+      "url": "main"
     },
     {
       "asDropdown": false,
-      "icon": "external link",
+      "icon": "cloud",
       "includeVars": false,
       "keepTime": false,
       "tags": [],
       "targetBlank": false,
-      "title": "TESTY",
-      "tooltip": "",
+      "title": "GitOps Destination Branch Prefix",
+      "tooltip": "Please don't edit this value - it is required for the GitOps POC",
+      "type": "link",
+      "url": "grafana-gitops-"
+    },
+    {
+      "asDropdown": false,
+      "icon": "cloud",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "GitOps Dashboard Filepath",
+      "tooltip": "Please don't edit this value - it is required for the GitOps POC",
       "type": "link",
       "url": "dashboards/test.json"
     }
