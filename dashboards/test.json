@@ -221,7 +221,23 @@
             ]
           }
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "A-series"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "dark-purple",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          }
+        ]
       },
       "gridPos": {
         "h": 6,
@@ -270,6 +286,6 @@
   "timezone": "browser",
   "title": "ProvisionedTestDashboard",
   "uid": "edt15j1f2u7lsd",
-  "version": 6,
+  "version": 7,
   "weekStart": ""
 }
